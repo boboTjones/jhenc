@@ -4,15 +4,19 @@ table {
     margin: 30px auto;
     border: 1px solid #eee;
     border-radius: 3px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.04)
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.04);
+    border-spacing: 0;
+    border-collapse: separate;
 }
+
 tr {
     background: transparent;
-    border: 0
+    border: 0;
 }
+
 td {
-  width:1px;
-  height:1px;
-  padding: 0;
-  border: 0;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    border: 0;
 }
