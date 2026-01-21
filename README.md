@@ -16,7 +16,7 @@ Why? Because you never want the image just sitting around and you definitely don
 ## Usage
 
 ```go
-import "github.com/yourusername/jhenc"
+import "github.com/bobotjones/jhenc"
 
 // JSON encoding
 err := jhenc.JSONEncode(writer, img)
